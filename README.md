@@ -1,19 +1,25 @@
-# Book Management App
+# 📚 Book Management App
 
-A full-stack web application to manage a collection of books with Create, Read, Update, and Delete (CRUD) functionality.
-
----
-
-## Tech Stack
-
-- **Frontend:** Next.js (React)
-- **Backend:** Node.js, Express.js
-- **Database:** PostgreSQL
-- **API Calls:** Axios
+A full-stack web application to manage a collection of books with **Create, Read, Update, and Delete (CRUD)** functionality.
 
 ---
 
-## Features
+## 🚀 Tech Stack
+
+**Frontend**
+- Next.js (React)
+- Axios
+
+**Backend**
+- Node.js
+- Express.js
+
+**Database**
+- PostgreSQL
+
+---
+
+## ✨ Features
 
 - View list of books
 - Add a new book
@@ -24,4 +30,4 @@ A full-stack web application to manage a collection of books with Create, Read, 
 
 ---
 
-## Project Structure
+## 📂 Project Structure

@@ -41,6 +41,10 @@ export default function Home() {
 
     fetchBooks();
   };
+  const deleteBook = async (id: number) => {
+  await axios.delete(`http://localhost:5000/books/${id}`);
+  fetchBooks();
+};
 
   return (
     <div style={{ padding: "30px" }}>
@@ -93,6 +97,9 @@ export default function Home() {
           <p>{book.author}</p>
           <p>{book.genre}</p>
           <p>{book.publication_year}</p>
+          <button onClick={() => deleteBook(book.id)}>
+      Delete
+    </button>
         </div>
       ))}
 
